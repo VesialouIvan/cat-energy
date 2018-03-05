@@ -1,0 +1,39 @@
+{
+  "name": "cat-energy",
+  "version": "1.0.0",
+  "description": "products for cats",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VesialouIvan/cat-energy.git"
+  },
+  "author": "VesialouIvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VesialouIvan/cat-energy/issues"
+  },
+  "homepage": "https://github.com/VesialouIvan/cat-energy#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "browser-sync": "^2.23.6",
+    "css-mqpacker": "^6.0.2",
+    "del": "^3.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-less": "^4.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}
