@@ -7,6 +7,92 @@
     <title>Document</title>
 </head>
 <body>
+    <header class="page-header">
+        <nav class="main-nav">
+            <div class="main-nav__wrapper">
+                <a href="#">cat-energy</a>
+                <button class="main-nav__toggler">menu</button>
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a href=""></a></li>
+                    <li class="main-nav__item"><a href=""></a></li>
+                    <li class="main-nav__item"><a href=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="promo">
+            <div class="promo-wrapper">
+                <h1>Подбор программы</h1>
+                <p>Заполните анкету и мы подберем программу питания для вашего кота</p>
+            </div>
+        </section>
+        <section class="form">
+            <fieldset class="form__information">
+                <input type="text" id="name" value="Барсик">
+                <label for="name">Имя:*</label>
+                <input type="text" id="weight" value="7">
+                <label for="weight">Вес (КГ):*</label>
+                <input type="text" id="old" value="7">
+                <label for="old">Возраст (ЛЕТ):</label>
+            </fieldset>
+            <fieldset class="form__program">
+                <input type="radio" id="slim">
+                <label for="slim">Похудение</label>
+                <input type="radio" id="fat">
+                <label for="fat">Наюор массы</label>
+                <input type="radio" id="advice">
+                <label for="advice">Не знаю (нужен ваш совет)</label>
+            </fieldset>
+            <fieldset class="form__contacts">
+                <h2>Контактные данные (владельца кота)</h2>
+                <input type="text" id="email" value="kuklachev@gmail.com">
+                <label for="email">e-mail:*</label>
+                <input type="text" id="phone" value="8 (960) 900-60-90">
+                <label for="phone">Телефон:*</label>
+            </fieldset>
+            <fieldset class="form__comment">
+                <h2>Комментарий</h2>
+                <textarea name="" id="" cols="30" rows="10">расскажите обо всех повадках кота</textarea>
+            </fieldset>
+            <fieldset class="form__add">
+                <h2>Дополнительно</h2>
+                <input type="checkbox" id="sugar" checked>
+                <label for="sugar">Сахарозаменитель</label>
+                <input type="checkbox" id="water">
+                <label for="water">Питьевая вода</label>
+                <input type="checkbox" id="milk">
+                <label for="milk">Молоко</label>
+                <input type="checkbox" id="vita">
+                <label for="vita">Витамины</label>
+                <button type="submit">Отправить заявку</button>
+                <p>*-Обязательные поля</p>
+            </fieldset>  
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="page-footer__partner">
+            <h2>Приглашаем к сотрудничеству дилеров</h2>
+            <span>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</span>
+        </div>
+        <div class="page-footer__map">
     
+        </div>
+        <div class="page-footer__cat">
+            <span class="page-footer__span--bold">cat</span>
+            <span class="page-footer__span">energy</span>
+        </div>
+        <div>
+            <ul class="page-footer__social">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div>
+            <span class="page-footer__htmlacademy">HTML Academy</span>
+            <a href="" class="page-footer__logo"></a>
+        </div>
+    </footer>
 </body>
 </html>

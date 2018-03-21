@@ -1,0 +1,25 @@
+.visually-hidden() {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container() {
+    width: 87.5%;
+    margin: 0 auto;
+
+    @media @tablet-widths {
+        width: 92%;
+    }
+    @media @desktop-widths {
+        width: 85%;
+        max-width: 1300px;
+    }
+}
+
+
